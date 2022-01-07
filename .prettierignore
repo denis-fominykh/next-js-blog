@@ -1,0 +1,13 @@
+.next
+.husky
+node_modules
+public
+build
+.babelrc
+.eslintrc.js
+.prettierrc.js
+lint-staged.config.js
+next-env.d.ts
+package.json
+yarn.lock
+tsconfig.json
