@@ -18,7 +18,7 @@ interface UrlQueryParams extends ParsedUrlQuery {
   itemId: string;
 }
 
-export const getStaticPaths: GetStaticPaths<{ itemId: string }> = async () => {
+export const getStaticPaths: GetStaticPaths<UrlQueryParams> = async () => {
   return {
     paths: [{ params: { itemId: '1' } }],
     fallback: 'blocking',
