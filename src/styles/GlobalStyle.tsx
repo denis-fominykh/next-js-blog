@@ -1,20 +1,28 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  html,
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
   * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  p {
+    margin: 10px 0;
   }
 `;
