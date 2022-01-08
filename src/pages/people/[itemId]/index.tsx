@@ -1,4 +1,4 @@
-import { ParsedUrlQuery } from 'querystring';
+import type { ParsedUrlQuery } from 'querystring';
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next';
 
 import { SWCharacter } from '~/api/types';
