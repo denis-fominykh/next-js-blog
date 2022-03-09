@@ -11,7 +11,7 @@ export default function NavBar({ children }: NavBarProps) {
   return (
     <>
       <Navbar>
-        <LogoLink href="/">Remix</LogoLink>
+        <LogoLink href="/">Next.js</LogoLink>
         <ul>
           <li>
             <Link href="/people">People</Link>
