@@ -15,6 +15,7 @@ export const ItemsList = styled.ul`
   align-items: flex-start;
 
   li {
+    cursor: pointer;
     padding: 20px;
     border: 1px #333 solid;
     border-radius: 5px;
